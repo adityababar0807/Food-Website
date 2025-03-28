@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: brown; */
+    height: 375vh;
+    width: 100vw;
+
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 16px
+
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-items{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+
+#food-head{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#sub-head{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.image{
+    background-image: url(images/slide01.jpg);
+    height: 90vh;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.image h2{
+    margin-top: 50px;
+}
+
+.food-sec{
+    /* background-color: brown; */
+    height:110vh;
+    width:100vw;
+}
+
+.food-con{
+    border: 2px solid black;
+    height: 80vh;
+    width: 90%;
+    margin: 28px auto;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: center;
+}
+
+#img1{
+    height: 350px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column  ;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+}
+
+#img2{
+    height: 350px;
+}
+
+#food-para{
+    font-family: sans-serif;
+    /* background-color: red; */
+    width: 260px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.exper-sec{
+    height: 40vh;
+    background-color: grey;
+    width: 100%;
+}
+
+#exper-head{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#exper-subhead{
+    font-size: 1.32rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#exper-para{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 97%;
+    margin: auto;
+    margin-top: 3px;
+
+}
+
+#exper-menu{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.chef-sec{
+    height: 100vh;
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.chef-con{
+    /* background-color: yellow; */
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.chef-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chef-para-con{
+    /* background-color:red; */
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#chef-para{
+    width: 290px; 
+}
+
+.address{
+    background-color: brown;
+    height: 40vh;
+    padding: 10px;
+    width: 100%;
+}
+
+#add-head{
+    text-align: center;
+}
+
+#add-head2{
+    text-align: center;
+}
+
+#add-para{
+    text-align: center;
+    font-size: 1.22rem;
+    font-style: italic;
+}
+
+
+#add-para2{
+    text-align: center;
+    font-size: 1.22rem;
+    font-style: italic;
+}
+
+
+#add-para3{
+    text-align: center;
+    font-size: 1.22rem;
+}
+
+.logo-con{
+    height: 15vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo-png{
+    height: 70px;
+}
